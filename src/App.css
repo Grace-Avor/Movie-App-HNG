@@ -309,4 +309,17 @@ h2 {
   padding: 0 20px;
 }
 
+.sub-row2 {
+  width: 100%;
+}
+
+.movie-poster {
+  width: 100%;
+}
+
+.mixed-posters{
+  width: 100%;
+  margin-top: 10px;
+}
+
 }

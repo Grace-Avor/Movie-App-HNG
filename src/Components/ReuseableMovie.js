@@ -15,15 +15,16 @@ const Reuseable = ({ movieList }) => {
                 src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                 alt="poster"
                 className="posters"
+                data-testid="poster"
               />
             </Link>
           </div>
           <div className="contents">
             <p>
-              <span>{movie.release_date}</span>
+              <span data-testid="movie-release-date">{movie.release_date}</span>
             </p>
           </div>
-          <h6> {movie.title} </h6>
+          <h6 data-testid="movie-title"> {movie.title} </h6>
           <div className="popularity">
             <div>
               <img src={apple} alt="thumbnail" />
