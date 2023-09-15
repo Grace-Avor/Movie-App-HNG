@@ -54,8 +54,8 @@ const MovieDetail = () => {
                 <button className="showtimes">See Showtimes</button>
                 <button className="more">More Watch Options</button>
               </div>
-              <div className="mixed-posters">
-                <img src={BestMovies} alt="hhh" />
+              <div>
+                <img src={BestMovies} className="mixed-posters" alt="hhh" />
               </div>
             </div>
           </div>
