@@ -1,0 +1,312 @@
+/*The head part of the homepage*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.Home{
+  width: 100%;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #000;
+}
+
+.Home-header {
+  background-image: url("../src/assets/Poster.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  width: 100%;
+}
+
+.NavContainer,
+.DetailsContainer {
+  color: #fff;
+}
+
+.NavContainer {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.searchInput {
+  width: 40%;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  padding: 2px 5px;
+  font-size: 1.6rem;
+  border-radius: 2px;
+  color: #d1d5db;
+  border: 1px solid #d1d5db;
+  background-color: transparent;
+  outline: none;
+}
+
+.DetailsContainer {
+  padding: 40px 0 0 40px;
+}
+
+.DetailList {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 5px;
+}
+
+/*The Main Body*/
+.Moviecontainer,
+.FeatureContainer {
+  padding: 40px;
+  margin-top: 10px;
+}
+
+.movieSession {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  margin: 10px;
+  width: 250px;
+  gap: 20px;
+}
+
+.Feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mainfeature {
+  height: 20px;
+}
+
+.posters {
+  width: 300px;
+}
+
+.popularity {
+  display: flex;
+  flex-direction: row;
+  width: 30px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+.popularity span {
+  position: relative;
+  top: -20px;
+  left: 37px;
+  padding-bottom: 15px;
+}
+
+.Feature {
+  color: #000;
+}
+
+.Year,
+.MovieCategories {
+  opacity: 0.7;
+}
+
+.FooterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.policy {
+  text-align: center;
+}
+
+.advertisement {
+  background-color: #fcf5f7;
+  border: 1px solid #be123c;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.movie-poster {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.colorPs {
+  color: #be123c;
+}
+
+.buttonRow {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.top-rated {
+  color: #fff;
+  background-color: #be123c;
+  border: 1px solid #be123c;
+  border-radius: 10px;
+  height: 50px;
+  padding: 15px;
+}
+
+.Awards {
+  border: 1px solid #be123c;
+  border-radius: 5px;
+  padding: 15px;
+  height: 50px;
+  width: 300px;
+  background-color: #fcf5f7;
+  color: #000;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.titleRow {
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+  padding: 20px;
+}
+
+.faintColorP2 {
+  opacity: 0.6;
+}
+
+.buttonRow2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-rated {
+  font: 20px;
+}
+
+.showtimes {
+  color: #fff;
+  background-color: #be123c;
+  border: 1px solid #be123c;
+  border-radius: 10px;
+  height: 50px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.more {
+  color: #000;
+  background-color: #f8e7eb;
+  border: 1px solid #be123c;
+  border-radius: 10px;
+  height: 50px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 450px) {
+  .Header {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+  }
+  .movieSession {
+    display: grid;
+    grid-template-columns: 300px;
+    margin: 0 auto;
+    width: 250px;
+    gap: 10;
+    width: 100%;
+  }
+
+  .NavContainer {
+    width: 200px;
+  }
+
+  .MovieBox,
+  .SignIn {
+    height: 20px;
+  }
+
+  .input {
+    width: 120px;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 2px;
+  }
+
+  .NavContainer {
+    padding: 0 10px;
+    gap: 5px;
+  }
+
+  .DetailsContainer {
+    padding: 10px 0 0 10px;
+  }
+
+  .Moviecontainer{
+    margin: 0 auto;
+    padding: 0;
+    width: 300px;
+  }
+
+  .Feature {
+  margin-top: 30px;
+}
+
+.mainMovieSession{
+  margin: 0;
+  padding: 0;
+}
+
+.MainContent{
+  width: 100%;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px;
+  gap: 50px;
+}
+
+.top-rated {
+  padding: 0 5px;
+}
+
+.titleRow {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+}
