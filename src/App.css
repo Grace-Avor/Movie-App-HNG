@@ -252,10 +252,6 @@ h2 {
     width: 100%;
   }
 
-  .NavContainer {
-    width: 200px;
-  }
-
   .MovieBox,
   .SignIn {
     height: 20px;
@@ -270,6 +266,7 @@ h2 {
   }
 
   .NavContainer {
+    width: 100%;
     padding: 0 10px;
     gap: 5px;
   }
