@@ -10,7 +10,7 @@ function Movie() {
   const getMovie = () => {
     setTimeout(() => {
       fetch(
-        "https://api.themoviedb.org/3/discover/movie?api_key=34364dc88e8dce9f4c84e3b56fe07db4"
+        "https://api.themoviedb.org/3/movie/top_rated?api_key=34364dc88e8dce9f4c84e3b56fe07db4"
       )
         .then((res) => {
           if (!res.ok) {
@@ -19,7 +19,7 @@ function Movie() {
           return res.json();
         })
         .then((data) => {
-          setMovieList(data.results.slice(0, 10));
+          setMovieList(data.results.slice(0, 12));
           setIsLoading(false);
         })
 

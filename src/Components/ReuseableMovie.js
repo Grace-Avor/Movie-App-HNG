@@ -27,15 +27,14 @@ const Reuseable = ({ movieList }) => {
           <h6 data-testid="movie-title"> {movie.title} </h6>
           <div className="popularity">
             <div>
-              <img src={apple} alt="thumbnail" />
-              <span> {movie.popularity} </span>
+              <img src={IMDB} alt="thumbnail" />
+              <span> {Math.round(movie.genre_ids[1])}/100 </span>
             </div>
             <div>
-              <img src={IMDB} alt="thumbnail" />
-              <span> {movie.popularity} </span>
+              <img src={apple} alt="thumbnail" />
+              <span> {Math.round(movie.popularity)}% </span>
             </div>
           </div>
-          <p> {movie.vote_count} </p>
         </div>
       ))}
     </div>

@@ -36,6 +36,7 @@ h2 {
 
 .NavContainer {
   padding: 0 40px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -102,14 +103,14 @@ h2 {
   flex-direction: row;
   width: 30px;
   height: 20px;
-  margin: 0;
+  margin-bottom: 10px;
   padding: 0;
-  gap: 40px;
+  gap: 100px;
 }
 
 .popularity span {
   position: relative;
-  top: -20px;
+  top: -24px;
   left: 37px;
   padding-bottom: 15px;
 }
@@ -258,7 +259,7 @@ h2 {
   }
 
   .input {
-    width: 120px;
+    width: 180px;
     height: 40px;
     padding: 5px 10px;
     font-size: 1rem;
@@ -326,4 +327,13 @@ h2 {
   margin-top: 10px;
 }
 
+.links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer{
+  margin-top: 80px;
+}
 }
