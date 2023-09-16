@@ -22,16 +22,13 @@ const MovieDetail = () => {
     <div className="MainContent">
       <div className="main">
         <div className="main-content">
-          <div className="main-row1">
             <div>
               <img
                 src={`https://image.tmdb.org/t/p/w500${movieData.backdrop_path}`}
                 className="movie-poster"
                 alt="poster"
               ></img>
-              <video src=""></video>
             </div>
-          </div>
 
           <div className="titleRow">
             <div className="title">
