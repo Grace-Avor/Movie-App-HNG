@@ -14,7 +14,7 @@ function Movie() {
       )
         .then((res) => {
           if (!res.ok) {
-            throw Error("Could not fetch data");
+            throw Error("Could not fetch data"); 
           }
           return res.json();
         })

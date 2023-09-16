@@ -9,7 +9,7 @@ function App() {
       <div className="App-header">
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/movies/monami/:id' element={<MovieDetail />} /> 
+          <Route path='/movies/:id' element={<MovieDetail />} /> 
         </Routes>
       </div>
     </div>

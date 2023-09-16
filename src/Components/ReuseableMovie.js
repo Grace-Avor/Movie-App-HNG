@@ -10,7 +10,7 @@ const Reuseable = ({ movieList }) => {
       {movieList.map((movie) => (
         <div className="mainMovieSession" key={movie.id}>
           <div className="image">
-            <Link to={`/movies/monami/${movie.id}`}>
+            <Link to={`/movies/${movie.id}`}>
               <img
                 src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                 alt="poster"
