@@ -6,7 +6,7 @@ const Reuseable = ({ movieList }) => {
   console.log(movieList);
 
   return (
-    <div className="movieSession">
+    <div className="movieSession" data-testid="movie-card">
       {movieList.map((movie) => (
         <div className="mainMovieSession" key={movie.id}>
           <div className="image">
