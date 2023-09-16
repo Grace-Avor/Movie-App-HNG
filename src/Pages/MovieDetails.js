@@ -15,7 +15,7 @@ const MovieDetail = () => {
     fetch(url)
       .then((res) => res.json())
 
-      .then((json) => movieData(json));
+      .then((json) => setMovieData(json));
   }, [url]);
 
   return (
@@ -25,7 +25,7 @@ const MovieDetail = () => {
           <div className="main-row1">
             <div>
               <img
-                src={`https://image.tmdb.org/t/p/w500${movieData.poster_path}`}
+                src={`https://image.tmdb.org/t/p/w500${movieData.backdrop_path}`}
                 className="movie-poster"
                 alt="poster"
               ></img>
@@ -34,7 +34,7 @@ const MovieDetail = () => {
 
           <div className="titleRow">
             <div className="title">
-              <span data-testid="movie-title">{movieData.title}</span>
+              <h1 data-testid="movie-title">{movieData.title}</h1>
             </div>
             <div className="releaseDate">
               <span data-testid="movie-release-date">{movieData.release_date}</span>
