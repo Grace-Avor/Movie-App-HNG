@@ -29,15 +29,16 @@ const MovieDetail = () => {
                 className="movie-poster"
                 alt="poster"
               ></img>
+              <video src=""></video>
             </div>
           </div>
 
           <div className="titleRow">
             <div className="title">
-              <h1 data-testid="movie-title">{movieData.title}</h1>
+              <h6 data-testid="movie-title" className="h1-title">{movieData.title}</h6>
             </div>
             <div className="releaseDate">
-              <span data-testid="movie-release-date">{movieData.release_date}</span>
+              <h6 data-testid="movie-release-date">{movieData.release_date}</h6>
             </div>
           </div>
           <div className="secondRow">
